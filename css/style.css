@@ -1,0 +1,11 @@
+:root{
+    --main-color-light: rgb(234, 88, 12);
+    --main-color-dark: rgb(124, 45, 18);
+    --main-color-gray: #4a5565;
+}
+*{
+    font-family: "Exo", sans-serif;
+}
+
+
+
