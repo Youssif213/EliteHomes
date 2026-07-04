@@ -2,16 +2,181 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/style.css" />
     <script src="js/bootstrap.bundle.min.js"></script>
-    <title>Clarity - Digital Solutions Platform</title>
+    <title>EliteHomes - Your Dream Home Awaits</title>
   </head>
 
+
+
+
+
+
   <body>
-    
+    <!-- ------------------------------------------------- Start Navbar ------------------------------------------------- -->
+    <nav class="navbar navbar-expand-lg bg-white">
+      <div class="container-fluid px-4 py-2">
+        <a class="navbar-brand fs-4 fw-bold" href="#home">EliteHomes</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex gap-5">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Properties
+              </a>
+              <div class="dropdown-menu shadow border-0 p-3">
+                <div class="row">
+                  <ul class="col-lg-3 list-unstyled">
+                    <div class="dropdown-col-inner d-flex flex-column gap-2">
+                      <h3 class="fs-5 fw-bold mb-4">Featured Properties</h3>
+                      <div class="dropdown-col-block p-2 d-flex justify-content-start align-items-center gap-1 rounded-2">
+                        <img src="img/luxury-villa.jpeg" width="70px" height="70px" class="rounded-2">
+                        <div class="block-details">
+                          <span>Luxury Villa</span>
+                          <p class="text-black-50">$2.5M • 5 beds • 4 baths</p>
+                        </div>
+                      </div>
+                      <div class="dropdown-col-block p-2 d-flex justify-content-start align-items-center gap-1 rounded-2">
+                        <img src="img/modern-apartment.jpeg" width="70px" height="70px" class="rounded-2">
+                        <div class="block-details">
+                          <span>Modern Apartment</span>
+                          <p class="text-black-50">$850K • 2 beds • 2 baths</p>
+                        </div>
+                      </div>
+                    </div>
+                  </ul>
+                  <ul class="col-lg-3 list-unstyled">
+                    <div class="dropdown-col-inner">
+                      <h3 class="fs-5 fw-bold mb-4">Property Types</h3>
+                      <span class="d-flex gap-2 align-items-baseline">
+                        <i class="fa-solid fa-house"></i>
+                        <p>Single Family Homes</p>
+                      </span>
+                      <span class="d-flex gap-2 align-items-baseline">
+                        <i class="fa-solid fa-building"></i>
+                        <p>Apartments</p>
+                      </span>
+                      <span class="d-flex gap-2 align-items-baseline">
+                        <i class="fa-solid fa-warehouse"></i>
+                        <p>Condominiums</p>
+                      </span>
+                      <span class="d-flex gap-2 align-items-baseline">
+                        <i class="fa-solid fa-shop"></i>
+                        <p>Commercial</p>
+                      </span>
+                      <span class="d-flex gap-2 align-items-baseline">
+                        <i class="fa-solid fa-tree"></i>
+                        <p>Land & Lots</p>
+                      </span>
+                    </div>
+                  </ul>
+                  <ul class="col-lg-3 list-unstyled">
+                    <div class="dropdown-col-inner d-flex flex-column gap-2">
+                      <h3 class="fs-5 fw-bold mb-3">Popular Locations</h3>
+
+                        <div class="pop-loc pop-loc1 rounded-2 p-3 d-flex flex-column justify-content-center">
+                          <span class="text-white fw-bold fs-5">New York</span>
+                          <p class="mb-0 fw-bold">2,145 Properties</p>
+                        </div>
+                        <div class="pop-loc pop-loc2 rounded-2 p-3 d-flex flex-column justify-content-center">
+                          <span class="text-white fw-bold fs-5">Los Angeles</span>
+                          <p class="mb-0 fw-bold">1,873 Properties</p>
+                        </div>
+                        <div class="pop-loc pop-loc3 rounded-2 p-3 d-flex flex-column justify-content-center">
+                          <span class="text-white fw-bold fs-5">Miami</span>
+                          <p class="mb-0 fw-bold">1,526 Properties</p>
+                        </div>
+                    </div>
+                  </ul>
+                  <ul class="col-lg-3 list-unstyled">
+                    <div class="dropdown-col-inner d-flex flex-column gap-2">
+                      <h3 class="fs-5 fw-bold mb-2">Resources</h3>
+                      <div class="resource-item resource-item1 p-3">
+                        <div class="content">
+                          <div class="d-flex gap-2 align-items-center mb-2">
+                            <i class="fa-solid fa-book-open"></i>
+                            <h4 class="fs-5 fw-bold">Buying Guide</h4>
+                          </div>
+                          <p class="text-black-50">Essential tips and strategies for first-time homebuyers</p>
+                          <span>Learn More <i class="fa-solid fa-arrow-right"></i></span>
+                        </div>
+                      </div>
+                      <div class="resource-item resource-item2 p-3">
+                        <div class="content">
+                          <div class="d-flex gap-2 align-items-center mb-2">
+                            <i class="fa-solid fa-chart-line"></i>
+                            <h4 class="fs-5 fw-bold">Investment Tips</h4>
+                          </div>
+                          <p class="text-black-50">Smart strategies for property investment success</p>
+                          <span>Learn More <i class="fa-solid fa-arrow-right"></i></span>
+                        </div>
+                      </div>
+                      <div class="resource-item resource-item1 p-3">
+                        <div class="content">
+                          <div class="d-flex gap-2 align-items-center mb-2">
+                            <i class="fa-solid fa-file-lines"></i>
+                            <h4 class="fs-5 fw-bold">Market Reports</h4>
+                          </div>
+                          <p class="text-black-50">In-depth analysis of real estate market trends</p>
+                          <span>Learn More <i class="fa-solid fa-arrow-right"></i></span>
+                        </div>
+                      </div>
+                    </div>
+                  </ul>
+                </div>
+              </div>
+            </li>
+
+
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#faq">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- ------------------------------------------------- End Navbar ------------------------------------------------- -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   </body>
 </html>

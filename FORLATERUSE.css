@@ -1,0 +1,25 @@
+.container label{
+    display: flex;
+    justify-content: center;
+}
+
+.form-control,
+.form-select{
+    height:55px;
+    border-radius:12px;
+}
+
+.input-group-text{
+    border-radius:12px 0 0 12px;
+}
+
+.btn-primary{
+    background:linear-gradient(90deg,#6f2cff,#b000ff);
+    border:none;
+    font-size:20px;
+    font-weight:600;
+}
+
+.btn-primary:hover{
+    background:linear-gradient(90deg,#5b22d8,#9600db);
+}
