@@ -15,6 +15,9 @@
 .main-bg-color-light{background-color: var(--main-color-light);}
 .main-bg-color-dark{background-color: var(--main-color-dark);}
 
+.p-max-width{
+    max-width: 750px;
+}
 
 /* ------------------------------------------------- Start Navbar ------------------------------------------------- */
 .navbar-expand-lg .navbar-nav .nav-link{
@@ -222,3 +225,52 @@
 
 
 
+/* ------------------------------------------------- Start Home ------------------------------------------------- */
+header{
+    height: 100vh;
+    padding-top: 78px;
+    background-image: linear-gradient(rgba(88, 22, 141,0.8)), url(../img/hero-bg-img.png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+#home h1{
+    font-size: 4rem;
+}
+#home .content > p{
+    font-size: 1.25rem;
+    color: #e5e7eb;
+}
+
+
+
+#home form input, #home form select{
+    padding: 0.75rem 1rem;
+    border: 0.5px solid #E8EAEE;
+    border-radius: 10px;
+}
+#home form select option{
+    padding: 0.5rem;
+}
+#home form .form-control:focus {
+    border: 5px double var(--main-color-light);
+    box-shadow: none;
+}
+
+#home form button{
+    background-image: linear-gradient(to right, #8022FE, #9810FB);
+}
+
+
+
+#home form label{
+    font-size: 0.9rem;
+    color: #364153;
+}
+.home-footer p{
+    color: #ddd6ff;
+}
+
+/* ------------------------------------------------- End Home ------------------------------------------------- */

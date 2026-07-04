@@ -24,7 +24,7 @@
 
   <body>
     <!-- ------------------------------------------------- Start Navbar ------------------------------------------------- -->
-    <nav class="navbar navbar-expand-lg bg-white">
+    <nav class="navbar navbar-expand-lg bg-white w-100 position-fixed shadow">
       <div class="container-fluid px-4 py-2">
         <a class="navbar-brand fs-4 fw-bold" href="#home">EliteHomes</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -172,11 +172,110 @@
 
 
 
+    <!-- ------------------------------------------------- Start Home ------------------------------------------------- -->
+    <header id="home" class="d-flex justify-content-center align-items-center">
+      <div class="content w-50 d-flex flex-column align-items-center gap-3">
+        <h1 class="fw-bold text-white text-center">Find Your Dream Home</h1>
+        <p class="p-max-width text-center">Discover exceptional properties in prime locations. From modern condos to luxury estates, we help you find the perfect place to call home.</p>
 
+        <form class="row bg-white rounded-3 p-4">
+          <div class="col-lg-6 d-flex flex-column align-items-center">
+            <label for="home-form-location" class="mb-2">Location</label>
+            <div class="input-group mb-3">
+              <span class="input-group-text bg-white" id="basic-addon1"><i class="fa-solid fa-location-dot text-black-50"></i></span>
+              <input id="home-form-location" type="text" class="border-start-0 rounded-start-0 form-control ps-0" placeholder="Enter city, neighbourhood or ZIP code" aria-label="Username" aria-describedby="basic-addon1">
+            </div>
+          </div>
 
+          <div class="col-lg-3 d-flex flex-column align-items-center">
+            <label for="property-type" class="mb-2">Property Type</label>
+            <select name="property-type" id="property-type" class="form-control d-block w-100">
+              <option value="All Types" selected>All Types</option>
+              <option value="House">House</option>
+              <option value="Apartment">Apartment</option>
+              <option value="Condo">Condo</option>
+              <option value="Townhouse">Townhouse</option>
+            </select>
+          </div>
 
+          <div class="col-lg-3 d-flex flex-column align-items-center">
+            <label for="price-range" class="mb-2">Price Range</label>
+            <select name="price-range" id="price-range" class="form-control d-block w-100">
+              <option value="Any Price" selected>Any Price</option>
+              <option value="$0 - $500K">$0 - $500K</option>
+              <option value="$500K - $1M">$500K - $1M</option>
+              <option value="$1M - $2M">$1M - $2M</option>
+              <option value="$2M+">$2M+</option>
+            </select>
+          </div>
 
+          <div class="col-lg-3 col-6 d-flex flex-column align-items-center">
+            <label for="bedrooms" class="my-2">Bedrooms</label>
+            <select name="bedrooms" id="bedrooms" class="form-control d-block w-100">
+              <option value="Any" selected>Any</option>
+              <option value="1+">1+</option>
+              <option value="2+">2+</option>
+              <option value="3+">3+</option>
+              <option value="4+">4+</option>
+              <option value="5+">5+</option>
+            </select>
+          </div>
 
+          <div class="col-lg-3 col-6 d-flex flex-column align-items-center">
+            <label for="bathrooms" class="my-2">Bathrooms</label>
+            <select name="bathrooms" id="bathrooms" class="form-control d-block w-100">
+              <option value="Any" selected>Any</option>
+              <option value="1+">1+</option>
+              <option value="2+">2+</option>
+              <option value="3+">3+</option>
+              <option value="4+">4+</option>
+            </select>
+          </div>
 
+          <div class="col-lg-3 col-6 d-flex flex-column align-items-center">
+            <label for="min-sq-ft" class="my-2">Min Sq Ft</label>
+            <input type="number" name="min-area" id="min-sq-ft" placeholder="1,000" class="form-control w-100">
+          </div>
+
+          <div class="col-lg-3 col-6 d-flex flex-column align-items-center">
+            <label for="max-sq-ft" class="my-2">Max Sq Ft</label>
+            <input type="number" name="max-area" id="max-sq-ft" placeholder="5,000" class="form-control w-100">
+          </div>
+
+          <button class="my-4 p-3 fs-5 fw-bold text-white border-0 rounded-2"><i class="fa-solid fa-magnifying-glass"></i> Search Properties</button>
+        </form>
+
+        <div class="home-footer w-100 d-flex justify-content-around mt-4">
+          <div class="text-center">
+            <h3 class="fs-2 fw-bold text-white mb-0">15,000+</h3>
+            <p class="fs-6 mt-0">Active Listings</p>
+          </div>
+          <div class="text-center">
+            <h3 class="fs-2 fw-bold text-white mb-0">98%</h3>
+            <p class="fs-6 mt-0">Client Satisfaction</p>
+          </div>
+          <div class="text-center">
+            <h3 class="fs-2 fw-bold text-white mb-0">500+</h3>
+            <p class="fs-6 mt-0">Expert Agents</p>
+          </div>
+          <div class="text-center">
+            <h3 class="fs-2 fw-bold text-white mb-0">25</h3>
+            <p class="fs-6 mt-0">Years Experience</p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- ------------------------------------------------- End Home ------------------------------------------------- -->
+    
+    
+    
+    
+    
+    
+    <!-- ------------------------------------------------- Start Home ------------------------------------------------- -->
+    
+    
+    
+    <!-- ------------------------------------------------- End Home ------------------------------------------------- -->
   </body>
 </html>
